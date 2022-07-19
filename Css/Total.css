@@ -1,0 +1,8 @@
+.menuSixth {
+    transition: .4s;
+    opacity: 1;
+}
+html.is-animating .menuSixth {
+    opacity: 0;
+    transition: translateY(100px);
+}
